@@ -1,4 +1,5 @@
 from pages.home_page import HomePage
+import time
 
 
 class TestHomePage:
@@ -11,5 +12,6 @@ class TestHomePage:
 
         expected_title = "Google"
         actual_title = home_page.get_page_title()
+        time.sleep(2)
 
         assert expected_title == actual_title
