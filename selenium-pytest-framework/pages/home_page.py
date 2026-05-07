@@ -5,7 +5,7 @@ class HomePage:
 
     def open_website(self, url):
         self.driver.get(url)
-        print("hi")
+        print("hi hellow")
 
     def get_page_title(self):
         return self.driver.title
